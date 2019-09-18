@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Sep 17, 2019 4:24:47 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="org.customer.Customers" table="CUSTOMERS">
+        <id name="MiddleName" type="java.lang.String">
+            <column name="MIDDLENAME" />
+            <generator class="assigned" />
+        </id>
+        <property name="AccNo" type="int">
+            <column name="ACCNO" />
+        </property>
+        <property name="FirstName" type="java.lang.String">
+            <column name="FIRSTNAME" />
+        </property>
+        <property name="LastName" type="java.lang.String">
+            <column name="LASTNAME" />
+        </property>
+        <property name="Gender" type="java.lang.String">
+            <column name="GENDER" />
+        </property>
+        <property name="Email" type="java.lang.String">
+            <column name="EMAIL" />
+        </property>
+        <property name="Mobile" type="java.lang.String">
+            <column name="MOBILE" />
+        </property>
+        <property name="Password" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+        <property name="Address" type="java.lang.String">
+            <column name="ADDRESS" />
+        </property>
+        <property name="DOB" type="java.lang.String">
+            <column name="DOB" />
+        </property>
+    </class>
+</hibernate-mapping>
