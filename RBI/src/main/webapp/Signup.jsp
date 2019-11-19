@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="login.jsp">
+<form action="record" method="post">
 <table>
 <tr><td>Account No</td>
 <td><input type="text" name="userid" /></td></tr>

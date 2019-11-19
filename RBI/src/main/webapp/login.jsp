@@ -7,10 +7,10 @@
 <title>login</title>
 </head>
 <body>
-<form action="profile.jsp"  >
+<form action="log"  >
 <table>
 <tr><td>Account No</td>
-<td><input type="text" name="userid" /></td></tr>
+<td><input type="text" name="acc" /></td></tr>
 <tr><td>Password</td>
 <td><input type="password" name="pass" /></td></tr>
 <tr>
